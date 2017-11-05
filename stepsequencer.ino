@@ -1,3 +1,6 @@
+//this is a step squencer with 3 channels that lets you edit which
+//of the 4 steps on each channel are on or off
+
 int ledPins[] = {4, 6, 8, 10};
 int buttonPins[] = {36, 35, 34, 33};
 boolean lastButtonStates[] = {LOW, LOW, LOW, LOW};
